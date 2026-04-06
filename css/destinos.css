@@ -1,0 +1,55 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10rem;
+    gap: 25px;
+}
+
+header h1 {
+    position: relative;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+header h1::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    border-bottom: 1px solid #000;
+    bottom: 0;
+    height: 3px;
+    width: 60%;
+}
+
+.destinos-container {
+    width: 100%;
+}
+
+.linha-destinos {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+}
+
+.destino-card {
+    width: 30%;
+}
+
+.destino-card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.destino-card .desc-destino {
+    background-color: #121212;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.destino-card .desc-destino p {
+    font-size: 15px;
+}
