@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../img/logo-tripway.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/contato.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Contato | TripWay</title>
+</head>
+
+<body>
+    <nav>
+
+    </nav>
+
+    <main>
+        <header class="pages-header">
+            <h1>Contato / Reserva</h1>
+            <p>Tudo que você precisa saber sobre sua viagem! O que fazer, onde ficar, dicas de restaurantes, compras e
+                muito mais. Confira!</p>
+        </header>
+        <section class="form-section">
+            <form>
+                <div class="linha-form">
+                    <div class="input-form">
+                        <label for="nome-input">Nome Completo</label>
+                        <input type="text" id="nome-input" placeholder="Ex.: Rafael Andres" required>
+                    </div>
+                    <div class="input-form">
+                        <label for="email-input">Email</label>
+                        <input type="email" id="email-input" placeholder="Ex.: vitoreis@email.com" required>
+                    </div>
+                </div>
+                <div class="linha-form">
+                    <div class="input-form">
+                        <label for="destino-select">Destino Desejado</label>
+                        <select name="destino-select" id="destino-select" required>
+                            <option value="" selected disabled>Selecione um destino</option>
+                            <option value="">Alter do Chão</option>
+                            <option value="">Aracaju</option>
+                            <option value="">Arraial do Cabo</option>
+                            <option value="">Balneário Camboriú</option>
+                            <option value="">Beto Carrero</option>
+                            <option value="">Fernando de Noronha</option>
+                        </select>
+                    </div>
+                    <div class="input-form">
+                        <label for="quantidade-select">Quantidade de pessoas</label>
+                        <select name="quantidade-select" id="quantidade-select" required>
+                            <option value="" selected disabled>Selecione uma quantidade</option>
+                            <option value="">1 Pessoas</option>
+                            <option value="">2 Pessoas</option>
+                            <option value="">3 Pessoas</option>
+                            <option value="">4 Pessoas</option>
+                            <option value="">5 Pessoas</option>
+                            <option value="">6 Pessoas</option>
+                            <option value="">7 Pessoas</option>
+                            <option value="">8 Pessoas</option>
+                            <option value="">9 Pessoas</option>
+                            <option value="">10 Pessoas</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="linha-form">
+                    <div class="input-form">
+                        <label for="data-ida-input">Data (ida)</label>
+                        <input type="date" id="data-ida-input" required>
+                    </div>
+                    <div class="input-form">
+                        <label for="data-volta-input">Data (volta)</label>
+                        <input type="date" id="data-volta-input" required>
+                    </div>
+                </div>
+                <div class="linha-form">
+                    <div class="input-form" id="input-form-observacao">
+                        <label for="observacao-textarea">Observações</label>
+                        <textarea name="observacao-textarea" id="observacao-textarea" required
+                            placeholder="Deixe uma Observação..."></textarea>
+                    </div>
+                </div>
+                <input type="submit" value="Realizar Reserva">
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
