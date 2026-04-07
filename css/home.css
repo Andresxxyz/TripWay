@@ -1,34 +1,5 @@
 nav{
-    height: 120px;
-    display: flex;
-    justify-content: space-between;
-}
-
-nav ul{
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-weight: 600;
-}
-
-nav ul li a:hover {
-    background-color: rgba(211, 211, 211, 0.50);
-    transition: 0.5s;
-    border-radius: 5px;
-}
-
-nav ul li.active a {
-    background-color: rgba(211, 211, 211, 0.50);
-    border-radius: 5px;
-}
-
-nav ul li a {
-    display: block;
-    padding: 20px;
-    text-decoration: none;
-    color: white;
+    background-color: rgba(0, 0, 0, 0.0);
 }
 
 #background-header {
