@@ -90,5 +90,5 @@ O projeto é composto por 4 páginas principais:
 
 ## 👥 Equipe
 
-- Rafael Andres 
-- Vitor Reis
+- Rafael Andres - RM: 573700
+- Vitor Reis - RM: 573315
