@@ -4,3 +4,49 @@
     box-sizing: border-box;
     font-family: "Raleway";
 }
+
+header.pages-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10rem;
+    gap: 25px;
+    background-color: #f0f0f0;
+}
+
+header.pages-header h1 {
+    position: relative;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+header.pages-header h1::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    border-bottom: 1px solid #000;
+    bottom: 0;
+    height: 3px;
+    width: 60%;
+}
+
+footer{
+    background-color: #212121;
+    width: 100%;
+    padding-top: 40px;
+}
+
+footer section ul li{
+    list-style-type: none;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    margin: 5px;
+}
+
+#copyright{
+    text-align: center;
+    color: white;
+    padding-top: 20px
+}
