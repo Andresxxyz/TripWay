@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -10,91 +10,134 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap"
         rel="stylesheet">
+
     <title>Destinos | TripWay</title>
 </head>
 
 <body>
-    <nav>
 
-    </nav>
+    <header>
+        <nav aria-label="Navegação principal">
+            <!-- menu -->
+        </nav>
+    </header>
 
     <main>
-        <header>
-            <h1>Guia de destinos</h1>
-            <p>Tudo que você precisa saber sobre sua viagem! O que fazer, onde ficar, dicas de restaurantes, compras e
-                muito mais. Confira!</p>
-        </header>
-        <section class="destinos-container">
-            <div class="linha-destinos">
-                <div class="destino-card">
-                    <img src="../img/alter-do-chao.jpg" alt="imagem de alter do chão">
-                    <div class="desc-destino">
-                        <h2>Alter do Chão</h2>
-                        <p> Alter do Chão encanta com suas águas claras, praias de
-                            areia branca e natureza exuberante no coração da Amazônia.</p>
+        <section class="pages-header">
+            <header>
+                <h1>Guia de destinos</h1>
+                <p>
+                    Tudo que você precisa saber sobre sua viagem! O que fazer, onde ficar,
+                    dicas de restaurantes, compras e muito mais. Confira!
+                </p>
+            </header>
+        </section>
 
-                    </div>
-                </div>
-                <div class="destino-card">
-                    <div class="img-destino">
-                        <img src="../img/aracaju.jpg" alt="imagem de alter do chão">
-                    </div>
-                    <div class="desc-destino">
-                        <h2>Aracaju</h2>
-                        <p>Aracaju oferece tranquilidade, belas orlas e ótima infraestrutura, sendo perfeita para quem
-                            busca descanso e cultura nordestina.</p>
-                    </div>
-                </div>
-                <div class="destino-card">
-                    <div class="img-destino">
-                        <img src="../img/arraial-do-cabo.jpg" alt="imagem de alter do chão">
-                    </div>
-                    <div class="desc-destino">
-                        <h2>Arraial do Cabo</h2>
-                        <p>Arraial do Cabo é famoso por suas águas cristalinas e paisagens paradisíacas, ideal para
-                            mergulho e passeios de barco inesquecíveis.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="linha-destinos">
-                <div class="destino-card">
-                    <div class="img-destino">
-                        <img src="../img/balneario.jpg" alt="imagem de alter do chão">
-                    </div>
-                    <div class="desc-destino">
-                        <h2>Baleário Camburiú</h2>
-                        <p>Balneário Camboriú combina praias urbanas, vida noturna agitada e atrações modernas, sendo um
-                            dos destinos mais vibrantes do Brasil.</p>
-                    </div>
-                </div>
-                <div class="destino-card">
-                    <div class="img-destino">
-                        <img src="../img/beto-carrero.jpg" alt="imagem de alter do chão">
-                    </div>
-                    <div class="desc-destino">
-                        <h2>Beto Carrero</h2>
-                        <p>O Beto Carrero World é o maior parque temático da América Latina, com atrações para todas as
-                            idades e muita diversão garantida.</p>
+        <section class="destinos-container" aria-labelledby="titulo-destinos">
+            <h2 id="titulo-destinos" class="visually-hidden">Lista de destinos</h2>
 
-                    </div>
-                </div>
-                <div class="destino-card">
-                    <div class="img-destino">
-                        <img src="../img/fernando-noronha.jpg" alt="imagem de alter do chão">
-                    </div>
-                    <div class="desc-destino">
-                        <h2>Fernando de Noronha</h2>
-                        <p>Fernando de Noronha é um verdadeiro paraíso ecológico, com praias preservadas, vida marinha
-                            abundante e cenários de tirar o fôlego.</p>
-                    </div>
-                </div>
-            </div>
+            <ul class="lista-destinos">
 
+                <li>
+                    <article class="destino-card">
+                        <figure>
+                            <img src="../img/alter-do-chao.jpg" alt="Praias de água doce em Alter do Chão">
+                        </figure>
+                        <div class="desc-destino">
+                            <h3>Alter do Chão</h3>
+                            <p>
+                                Alter do Chão encanta com suas águas claras, praias de areia branca
+                                e natureza exuberante no coração da Amazônia.
+                            </p>
+                        </div>
+                    </article>
+                </li>
 
+                <li>
+                    <article class="destino-card">
+                        <figure>
+                            <img src="../img/aracaju.jpg" alt="Orla de Aracaju ao entardecer">
+                        </figure>
+                        <div class="desc-destino">
+                            <h3>Aracaju</h3>
+                            <p>
+                                Aracaju oferece tranquilidade, belas orlas e ótima infraestrutura,
+                                sendo perfeita para quem busca descanso e cultura nordestina.
+                            </p>
+                        </div>
+                    </article>
+                </li>
+
+                <li>
+                    <article class="destino-card">
+                        <figure>
+                            <img src="../img/arraial-do-cabo.jpg" alt="Águas cristalinas de Arraial do Cabo">
+                        </figure>
+                        <div class="desc-destino">
+                            <h3>Arraial do Cabo</h3>
+                            <p>
+                                Arraial do Cabo é famoso por suas águas cristalinas e paisagens paradisíacas,
+                                ideal para mergulho e passeios de barco inesquecíveis.
+                            </p>
+                        </div>
+                    </article>
+                </li>
+
+                <li>
+                    <article class="destino-card">
+                        <figure>
+                            <img src="../img/balneario.jpg" alt="Skyline de Balneário Camboriú">
+                        </figure>
+                        <div class="desc-destino">
+                            <h3>Balneário Camboriú</h3>
+                            <p>
+                                Balneário Camboriú combina praias urbanas, vida noturna agitada e
+                                atrações modernas, sendo um dos destinos mais vibrantes do Brasil.
+                            </p>
+                        </div>
+                    </article>
+                </li>
+
+                <li>
+                    <article class="destino-card">
+                        <figure>
+                            <img src="../img/beto-carrero.jpg" alt="Parque Beto Carrero World">
+                        </figure>
+                        <div class="desc-destino">
+                            <h3>Beto Carrero</h3>
+                            <p>
+                                O Beto Carrero World é o maior parque temático da América Latina,
+                                com atrações para todas as idades e muita diversão garantida.
+                            </p>
+                        </div>
+                    </article>
+                </li>
+
+                <li>
+                    <article class="destino-card">
+                        <figure>
+                            <img src="../img/fernando-noronha.jpg" alt="Praia em Fernando de Noronha">
+                        </figure>
+                        <div class="desc-destino">
+                            <h3>Fernando de Noronha</h3>
+                            <p>
+                                Fernando de Noronha é um verdadeiro paraíso ecológico, com praias
+                                preservadas, vida marinha abundante e cenários de tirar o fôlego.
+                            </p>
+                        </div>
+                    </article>
+                </li>
+
+            </ul>
         </section>
     </main>
+
+    <footer>
+        <!-- rodapé -->
+    </footer>
+
 </body>
 
 </html>

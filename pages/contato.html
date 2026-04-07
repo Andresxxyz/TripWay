@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../img/logo-tripway.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/contato.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap"
+        rel="stylesheet">
+
+    <title>Contato | TripWay</title>
+</head>
+
+<body>
+
+    <header>
+        <nav aria-label="Navegação principal">
+            <!-- menu -->
+        </nav>
+    </header>
+
+    <main>
+        <section class="pages-header">
+            <header>
+                <h1>Contato / Reserva</h1>
+                <p>
+                    Dê o primeiro passo rumo às suas próximas férias. Informe seu destino e datas
+                    para receber um orçamento personalizado!
+                </p>
+            </header>
+        </section>
+
+        <section class="form-section" aria-labelledby="form-titulo">
+            <h2 id="form-titulo" class="visually-hidden">Formulário de reserva</h2>
+
+            <form action="#" method="post">
+
+                <fieldset>
+                    <legend>Informações pessoais</legend>
+
+                    <div class="linha-form">
+                        <div class="input-form">
+                            <label for="nome">Nome completo</label>
+                            <input type="text" id="nome" name="nome"
+                                placeholder="Ex.: Rafael Andres" required>
+                        </div>
+
+                        <div class="input-form">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email"
+                                placeholder="Ex.: vitoreis@email.com" required>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Detalhes da viagem</legend>
+
+                    <div class="linha-form">
+                        <div class="input-form">
+                            <label for="destino">Destino desejado</label>
+                            <select id="destino" name="destino" required>
+                                <option value="" selected disabled>Selecione um destino</option>
+                                <option value="alter-do-chao">Alter do Chão</option>
+                                <option value="aracaju">Aracaju</option>
+                                <option value="arraial-do-cabo">Arraial do Cabo</option>
+                                <option value="balneario-camboriu">Balneário Camboriú</option>
+                                <option value="beto-carrero">Beto Carrero</option>
+                                <option value="fernando-de-noronha">Fernando de Noronha</option>
+                            </select>
+                        </div>
+
+                        <div class="input-form">
+                            <label for="quantidade">Quantidade de pessoas</label>
+                            <select id="quantidade" name="quantidade" required>
+                                <option value="" selected disabled>Selecione uma quantidade</option>
+                                <option value="1">1 pessoa</option>
+                                <option value="2">2 pessoas</option>
+                                <option value="3">3 pessoas</option>
+                                <option value="4">4 pessoas</option>
+                                <option value="5">5 pessoas</option>
+                                <option value="6">6 pessoas</option>
+                                <option value="7">7 pessoas</option>
+                                <option value="8">8 pessoas</option>
+                                <option value="9">9 pessoas</option>
+                                <option value="10">10 pessoas</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="linha-form">
+                        <div class="input-form">
+                            <label for="data-ida">Data de ida</label>
+                            <input type="date" id="data-ida" name="data_ida" required>
+                        </div>
+
+                        <div class="input-form">
+                            <label for="data-volta">Data de volta</label>
+                            <input type="date" id="data-volta" name="data_volta" required>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Observações</legend>
+
+                    <div class="linha-form">
+                        <div class="input-form">
+                            <label for="observacoes">Observações adicionais</label>
+                            <textarea id="observacoes" name="observacoes"
+                                placeholder="Deixe uma observação..." rows="4"></textarea>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <button type="submit">Realizar reserva</button>
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <!-- rodapé -->
+    </footer>
+
+</body>
+
+</html>

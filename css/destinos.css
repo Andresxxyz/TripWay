@@ -1,30 +1,7 @@
-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10rem;
-    gap: 25px;
-}
-
-header h1 {
-    position: relative;
-    text-transform: uppercase;
-    padding-bottom: 10px;
-}
-
-header h1::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    border-bottom: 1px solid #000;
-    bottom: 0;
-    height: 3px;
-    width: 60%;
-}
 
 .destinos-container {
     width: 100%;
+    padding: 5rem 0;
 }
 
 .linha-destinos {
