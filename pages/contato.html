@@ -28,40 +28,63 @@
         </header>
         <section class="form-section">
             <form>
-                <label for="nome-input">Nome Completo</label>
-                <input type="text" id="nome-input" placeholder="Ex.: Rafael Andres" required>
-                <label for="email-input">Email</label>
-                <input type="email" id="email-input" placeholder="Ex.: vitoreis@email.com" required>
-                <label for="destino-select">Destino Desejado</label>
-                <select name="destino-select" id="destino-select" required>
-                    <option value="" selected disabled>Selecione um destino</option>
-                    <option value="">Alter do Chão</option>
-                    <option value="">Aracaju</option>
-                    <option value="">Arraial do Cabo</option>
-                    <option value="">Balneário Camboriú</option>
-                    <option value="">Beto Carrero</option>
-                    <option value="">Fernando de Noronha</option>
-                </select>
-                <label for="data-ida-input">Data (ida)</label>
-                <input type="date" id="data-ida-input" required>
-                <label for="data-volta-input">Data (volta)</label>
-                <input type="date" id="data-volta-input" required>
-                <label for="quantidade-select">Quantidade de pessoas</label>
-                <select name="quantidade-select" id="quantidade-select" required>
-                    <option value="" selected disabled>Selecione uma quantidade</option>
-                    <option value="">1 Pessoas</option>
-                    <option value="">2 Pessoas</option>
-                    <option value="">3 Pessoas</option>
-                    <option value="">4 Pessoas</option>
-                    <option value="">5 Pessoas</option>
-                    <option value="">6 Pessoas</option>
-                    <option value="">7 Pessoas</option>
-                    <option value="">8 Pessoas</option>
-                    <option value="">9 Pessoas</option>
-                    <option value="">10 Pessoas</option>
-                </select>
-                <label for="observacao-textarea">Observações</label>
-                <textarea name="observacao-textarea" id="observacao-textarea" required placeholder="Deixe uma Observação"></textarea>
+                <div class="linha-form">
+                    <div class="input-form">
+                        <label for="nome-input">Nome Completo</label>
+                        <input type="text" id="nome-input" placeholder="Ex.: Rafael Andres" required>
+                    </div>
+                    <div class="input-form">
+                        <label for="email-input">Email</label>
+                        <input type="email" id="email-input" placeholder="Ex.: vitoreis@email.com" required>
+                    </div>
+                </div>
+                <div class="linha-form">
+                    <div class="input-form">
+                        <label for="destino-select">Destino Desejado</label>
+                        <select name="destino-select" id="destino-select" required>
+                            <option value="" selected disabled>Selecione um destino</option>
+                            <option value="">Alter do Chão</option>
+                            <option value="">Aracaju</option>
+                            <option value="">Arraial do Cabo</option>
+                            <option value="">Balneário Camboriú</option>
+                            <option value="">Beto Carrero</option>
+                            <option value="">Fernando de Noronha</option>
+                        </select>
+                    </div>
+                    <div class="input-form">
+                        <label for="quantidade-select">Quantidade de pessoas</label>
+                        <select name="quantidade-select" id="quantidade-select" required>
+                            <option value="" selected disabled>Selecione uma quantidade</option>
+                            <option value="">1 Pessoas</option>
+                            <option value="">2 Pessoas</option>
+                            <option value="">3 Pessoas</option>
+                            <option value="">4 Pessoas</option>
+                            <option value="">5 Pessoas</option>
+                            <option value="">6 Pessoas</option>
+                            <option value="">7 Pessoas</option>
+                            <option value="">8 Pessoas</option>
+                            <option value="">9 Pessoas</option>
+                            <option value="">10 Pessoas</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="linha-form">
+                    <div class="input-form">
+                        <label for="data-ida-input">Data (ida)</label>
+                        <input type="date" id="data-ida-input" required>
+                    </div>
+                    <div class="input-form">
+                        <label for="data-volta-input">Data (volta)</label>
+                        <input type="date" id="data-volta-input" required>
+                    </div>
+                </div>
+                <div class="linha-form">
+                    <div class="input-form" id="input-form-observacao">
+                        <label for="observacao-textarea">Observações</label>
+                        <textarea name="observacao-textarea" id="observacao-textarea" required
+                            placeholder="Deixe uma Observação..."></textarea>
+                    </div>
+                </div>
                 <input type="submit" value="Realizar Reserva">
             </form>
         </section>

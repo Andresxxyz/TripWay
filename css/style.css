@@ -58,6 +58,7 @@ header.pages-header {
     align-items: center;
     padding: 10rem;
     gap: 25px;
+    background-color: #f0f0f0;
 }
 
 header.pages-header h1 {
