@@ -1,27 +1,32 @@
-
-.destinos-container {
+.servico-container {
     width: 100%;
     padding: 5rem 0;
 }
 
-.linha-destinos {
+.linha-servico {
     max-width: 100%;
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 2rem;
 }
 
-.destino-card {
+.servico-card {
     width: 30%;
+    transition: 0.2s ease;
 }
 
-.destino-card img {
+.servico-card:hover {
+    cursor: pointer;
+    transform: scale(105%);
+}
+
+.servico-card img {
     width: 100%;
     max-height: 500px;
     border-radius: 5px;
 }
 
-.destino-card .desc-destino {
+.servico-card .desc-servico {
     background-color: #121212;
     color: #fff;
     padding: 1rem;
@@ -29,8 +34,7 @@
     min-height: 230px;
 }
 
-.destino-card .desc-destino p {
+.servico-card .desc-servico p {
     font-size: 18px;
     text-align: justify;
 }
-

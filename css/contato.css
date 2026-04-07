@@ -1,54 +1,63 @@
-.form-section{
+.form-section {
     display: flex;
     justify-content: center;
     padding: 5rem 0;
 }
 
-.form-section form{
+.form-section form {
     display: flex;
     flex-direction: column;
     width: 60%;
 
 }
 
-.form-section form .linha-form{
+.form-section form .linha-form {
     display: flex;
     justify-content: space-between;
     gap: 10px;
     margin-bottom: 20px;
 }
 
-.form-section form .linha-form .input-form{
+.form-section form .linha-form .input-form {
     display: flex;
     flex-direction: column;
     width: 50%;
 }
 
-#input-form-observacao{
+#input-form-observacao {
     width: 100%;
 }
 
-label{
+label {
     margin-bottom: 5px;
 }
 
-input, select, textarea{
+input,
+select,
+textarea {
     padding: 0.5rem 0.2rem;
 }
 
-textarea{
+textarea {
     resize: none;
     height: 100px;
 }
 
-input[type='submit']{
+input[type='submit'] {
     border: none;
     background-color: rgb(59, 87, 250);
     color: #fff;
     font-weight: bold;
     font-size: 18px;
+    transition: 0.2s ease;
 }
 
-select:hover, input[type='submit']:hover, input[type='date']:hover{
+input[type='submit']:hover {
+    background-color: rgb(25, 54, 218);
+}
+
+select:hover,
+input[type='submit']:hover,
+input[type='date']:hover {
     cursor: pointer;
 }

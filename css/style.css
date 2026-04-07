@@ -71,7 +71,7 @@ header.pages-header h1::after {
 footer{
     background-color: #212121;
     width: 100%;
-    padding-top: 40px;
+    padding: 1rem;
 }
 
 footer section ul li{
@@ -82,8 +82,11 @@ footer section ul li{
     margin: 5px;
 }
 
+footer hr{
+    margin: 1rem;
+}
+
 #copyright{
     text-align: center;
     color: white;
-    padding-top: 20px
 }
