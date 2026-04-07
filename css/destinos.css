@@ -13,6 +13,12 @@
 
 .destino-card {
     width: 30%;
+    transition: 0.2s ease;
+}
+
+.destino-card:hover{
+    cursor: pointer;
+    transform: scale(105%);
 }
 
 .destino-card img {
