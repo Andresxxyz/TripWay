@@ -68,28 +68,6 @@ O projeto é composto por 4 páginas principais:
 
 ---
 
-## 📂 Organização de Pastas
-
-tripway/
-│
-├── index.html
-├── pages/
-│   ├── destinos.html
-│   ├── servicos.html
-│   └── contato.html
-│
-├── img/
-│   ├── logo-tripway.png
-│   └── [...]
-│
-├── css/
-│   ├── style.css
-│   └── [...]
-│
-└── README.md
-
----
-
 ## ✅ Requisitos Atendidos
 
 - ✔️ Uso de HTML semântico (`header`, `nav`, `main`, `section`, `footer`)  
