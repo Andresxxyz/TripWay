@@ -34,7 +34,8 @@ label {
 
 input,
 select,
-textarea {
+textarea,
+button {
     padding: 0.5rem 0.2rem;
 }
 
@@ -43,7 +44,7 @@ textarea {
     height: 100px;
 }
 
-input[type='submit'] {
+button[type='submit'] {
     border: none;
     background-color: rgb(59, 87, 250);
     color: #fff;
@@ -52,12 +53,12 @@ input[type='submit'] {
     transition: 0.2s ease;
 }
 
-input[type='submit']:hover {
+button[type='submit']:hover {
     background-color: rgb(25, 54, 218);
 }
 
 select:hover,
-input[type='submit']:hover,
+button[type='submit']:hover,
 input[type='date']:hover {
     cursor: pointer;
 }
