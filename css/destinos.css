@@ -37,4 +37,11 @@
     font-size: 15px;
 }
 
+.faq-section {
+    padding: 5rem;
+    
+}
 
+.faq-item{
+    margin-bottom: 1rem;
+}
