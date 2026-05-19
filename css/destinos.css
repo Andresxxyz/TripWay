@@ -38,8 +38,12 @@
 }
 
 .faq-section {
-    padding: 5rem;
-    
+    padding: 10rem;
+}
+
+.faq-section h2{
+    text-align: center;
+    margin-bottom: 2rem;
 }
 
 .faq-item{
