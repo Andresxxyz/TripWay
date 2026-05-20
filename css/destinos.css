@@ -53,3 +53,20 @@
 .faq-item h3{
     margin-bottom: 0.5rem;
 }
+
+@media (max-width: 768px){
+
+.linha-destinos {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.destino-card {
+    width: 100%;
+    margin-bottom: 1rem; 
+}
+
+
+}
