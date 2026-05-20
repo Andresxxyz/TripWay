@@ -92,3 +92,4 @@ O projeto é composto por 4 páginas principais:
 
 - Rafael Andres - RM: 573700
 - Vitor Reis - RM: 573315
+- Arthur Almeida - RM: 573170
