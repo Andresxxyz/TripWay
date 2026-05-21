@@ -61,3 +61,16 @@ button[type='submit']:hover,
 input[type='date']:hover {
     cursor: pointer;
 }
+
+@media (max-width: 768px){
+    .linha-form{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .input-form{
+        min-width: 100%;
+    }
+
+
+}
