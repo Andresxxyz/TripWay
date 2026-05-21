@@ -1,3 +1,9 @@
+:root{
+  --nav-bg-color: #212121;
+  --nav-li-bg-color-active: rgba(211, 211, 211, 0.5);
+  --bg-color: #f0f0f0;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +22,7 @@ nav {
   padding: 0 10px;
   justify-content: space-between;
   align-items: center;
-  background-color: #212121;
+  background-color: var(--nav-bg-color);
   position: relative;
 }
 
@@ -38,7 +44,7 @@ nav ul li a {
 
 nav ul li a:hover,
 nav ul li.active a {
-  background-color: rgba(211, 211, 211, 0.5);
+  background-color: var(--nav-li-bg-color-active);
   border-radius: 5px;
   transition: 0.5s;
 }
@@ -66,7 +72,7 @@ nav ul li.active a {
     top: 120px;
     left: 0;
     width: 100%;
-    background-color: #212121;
+    background-color: var(--nav-bg-color);
     padding: 20px 0;
     gap: 0;
   }
@@ -96,7 +102,7 @@ header.pages-header {
   padding-left: 4rem;
   padding-right: 4rem;
   gap: 25px;
-  background-color: #f0f0f0;
+  background-color: var(--bg-color);
 }
 
 header.pages-header h1 {
@@ -117,7 +123,7 @@ header.pages-header h1::after {
 }
 
 footer {
-  background-color: #212121;
+  background-color: var(--nav-bg-color);
   width: 100%;
   padding: 1rem;
 }
