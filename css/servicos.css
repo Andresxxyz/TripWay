@@ -27,7 +27,7 @@
 }
 
 .servico-card .desc-servico {
-    background-color: #121212;
+    background-color: var(--nav-bg-color);
     color: #fff;
     padding: 1rem;
     border-radius: 5px;
